@@ -9,6 +9,12 @@ body {
   color: #34495e;
 }
 
+.js-clock>h1 {
+  color: mintcream;
+  text-align: center;
+  font-size: 10rem;
+}
+
 .clicked {
   color: #7f8c8d;
 }
