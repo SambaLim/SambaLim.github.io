@@ -49,6 +49,39 @@ input {
   font-size: 3rem;
 }
 
+.js-toDoForm {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.js-toDoForm>input {
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 2px solid mintcream;
+  display: inline-block;
+  cursor: text;
+}
+
+.js-toDoForm>input::placeholder {
+  color: mintcream;
+}
+
+.js-toDoList {
+  list-style-type: none;
+}
+
+.js-toDoList>li {
+  font-size: 2rem;
+  text-align: center;
+  color: mintcream;
+}
+
+.js-toDoList>li>button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .clicked {
   color: #7f8c8d;
 }
