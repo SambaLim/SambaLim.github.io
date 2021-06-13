@@ -9,19 +9,48 @@ body {
   color: #34495e;
 }
 
+input {
+  color: mintcream;
+  outline: none;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
 .js-clock>h1 {
+  margin: 25% 0 0 0;
   color: mintcream;
   text-align: center;
   font-size: 10rem;
+  cursor: default;
+}
+
+.js-form {
+  display: none;
+  text-align: center;
+}
+
+.js-form>input {
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 2px solid mintcream;
+  display: inline-block;
+  cursor: text;
+}
+
+.js-form>input::placeholder {
+  color: mintcream;
+}
+
+.js-greetings {
+  margin: 0;
+  color: mintcream;
+  text-align: center;
+  font-size: 3rem;
 }
 
 .clicked {
   color: #7f8c8d;
-}
-
-.form,
-.greetings {
-  display: none;
 }
 
 .showing {
