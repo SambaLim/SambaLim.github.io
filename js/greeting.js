@@ -29,7 +29,6 @@ const askForName = () => {
 
 const loadName = () => {
   const currentUser = localStorage.getItem(USER_LS);
-  console.log(currentUser);
   if (currentUser === null) {
     askForName();
   } else {
