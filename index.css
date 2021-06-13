@@ -82,6 +82,14 @@ input {
   cursor: pointer;
 }
 
+.js-weather {
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+  color: mintcream;
+  font-size: 2rem;
+}
+
 .clicked {
   color: #7f8c8d;
 }
